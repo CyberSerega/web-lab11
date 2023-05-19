@@ -24,23 +24,23 @@ let arr = [12,15,16,24,30];
 let del = 4;
 function Func(array,number)
 {
-	let count=0;
-	let res = [];
-	for(let i=0; i<array.length; i++)
-	{
-		if (array[i]%number==0)
-		{
-			res[count]=array[i];
-			count++;
-		}
-	}
-	return res;
+let count=0;
+let res = [];
+for(let i=0; i<array.length; i++)
+{
+if (array[i]%number==0)
+{
+res[count]=array[i];
+count++;
+}
+}
+return res;
 }
 let res = Func(arr,del);
 for(let i=0; i<res.length; i++)
-	{
-		console.log(res[i]);
-	}
+{
+console.log(res[i]);
+}
 </script>
 </pre>
 <h4>2</h4>
