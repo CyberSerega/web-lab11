@@ -19,29 +19,12 @@
 <h2>Решение задач</h2>
 <h4>1</h4>
 <pre>
-<script>
-let arr = [12,15,16,24,30];
-let del = 4;
-function Func(array,number)
-{
-let count=0;
-let res = [];
-for(let i=0; i<array.length; i++)
-{
-if (array[i]%number==0)
-{
-res[count]=array[i];
-count++;
-}
-}
-return res;
-}
-let res = Func(arr,del);
-for(let i=0; i<res.length; i++)
-{
-console.log(res[i]);
-}
-</script>
+<?php
+$var = "hello";
+echo $var[0];
+echo $var[1];
+echo $var[4];
+?>
 </pre>
 <h4>2</h4>
 <pre>
