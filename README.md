@@ -20,10 +20,10 @@
 <h4>1</h4>
 <pre>
 <?php
-$var = "hello";
-echo $var[0];
-echo $var[1];
-echo $var[4];
+	$var = "hello";
+	echo $var[0];
+	echo $var[1];
+	echo $var[4];
 ?>
 </pre>
 <h4>2</h4>
